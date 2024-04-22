@@ -2,4 +2,3 @@
 
 The Apis mellifera genome is the most widely used resource in honey bee genetics and is due for a major update. Its current structure is a linear composite, with a single individual comprising most of the sequence. It contains biases and errors within a framework that does not represent commercial honey bee genomic variation. A high-quality reference with commercial representation of common variants, including single-nucleotide variants, structural variants and functional elements, is needed. We aim to create a more sophisticated and complete honey bee reference genome with a graph-based, telomere-to-telomere representation of genomic diversity. Here we leverage innovations in technology and study design with the goal of constructing the highest-possible quality honey beekeeper pangenome reference. Honey bee pangenome was produced from six commercial stocks in the United States. 
 
-![Model](https://github.com/slates03/USHB_Pangenome/files/15068159/Figure_1_V1.pdf)

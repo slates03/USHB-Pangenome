@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name="BCFtools Concat"    # job name
+#SBATCH --job-name="BCFtools Merge"    # job name
 #SBATCH -p short                    # job queue
 #SBATCH -N 1                        # job nodes
 #SBATCH -n 20                       # threads per node
@@ -20,10 +20,10 @@ export VCF="/90daydata/virus_rnaseq/2022_WGS_drone_stock/drone_samples/data/03A_
 export REF="/90daydata/virus_rnaseq/2022_WGS_drone_stock/drone_samples/References/GCF_003254395.2"
 
 ###############################
-#1. Concat chromosomes
+#1. Merge
 ###############################
 
-bcftools concat -f ${VCF}/concat.txt -Oz > ${VCF}/bcftools_120dronesamples.raw.vcf.gz
+bcftools merge -m -l ${VCF}/concat.txt -Oz > ${VCF}/bcftools_120dronesamples.raw.vcf.gz
 tabix -p vcf ${VCF}/bcftools_120dronesamples.raw.vcf.gz
 
 

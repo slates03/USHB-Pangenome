@@ -1,6 +1,6 @@
 # Trimming and Linear Alignment
 
-**00_Trim_BWA_LinearAlignment.sh**
+## 00_Trim_BWA_LinearAlignment.sh
 
 Raw pair-end reads were filtered with Trimmomatic (v0.38, MINLEN: 36) and mapped to the reference genome Amel_HAv3.1 using bwa-mem (v0.7.17) 
 

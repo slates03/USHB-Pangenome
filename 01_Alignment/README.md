@@ -6,7 +6,7 @@ Raw pair-end reads were filtered with Trimmomatic (v0.38, MINLEN: 36) and mapped
 
 Duplicates were marked and removed using gatk MarkDuplicates (v4.4.0.0 and read groups were added with picard (version 3.0.0; http:// broadinstitute.github.io/picard/). 
 
-# BcfTools
+# BCFTools
 
 **01A_1_BCFtools_VariantsCalling.sh**
 
